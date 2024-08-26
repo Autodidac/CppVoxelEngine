@@ -9,11 +9,12 @@ Building the Projects
 Build the Static Library
 ---
 Navigate to the VoxelEngineLib directory and create a build directory:
-
+[code]
 mkdir build
 cd build
 cmake ..
 cmake --build .
+[/code]
 
 
 Build the Example Application
