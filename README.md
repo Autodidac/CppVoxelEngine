@@ -9,19 +9,25 @@ A Voxel Engine Library in C++20 for WickedEngine
 
 #### Build the Dynamic Link Library and Executable Binary Example
 
-1. Download the zip file and extract it into a new solution containing a DLL and EXE projects (one each).
+1. **Download and Extract:**
+   - Download the ZIP file and extract it into a new solution containing both a DLL and an EXE project.
 
-2. Drop the source files into the appropriate folders. (Note: A Premake version for building solutions is planned.)
+2. **Add Source Files:**
+   - Place the source files into their respective project folders. (Note: A Premake configuration for building the solution is planned.)
 
-3. **In Project Properties (CppVoxelEngine project):**
-   - Add a macro to the preprocessor in the engine project properties.
+3. **Configure CppVoxelEngine Project:**
+   - Open the project properties for the `CppVoxelEngine` project.
+   - Add a macro to the preprocessor definitions.
 
-4. **In Project Properties (CppVoxelEngine_Example project):**
-   - Add the include directory to the EXE project.
-   - Add `CppVoxelEngine.lib` to the linker in the EXE project.
-   - Add the library directory to the linker in the EXE project.
+4. **Configure CppVoxelEngine_Example Project:**
+   - Open the project properties for the `CppVoxelEngine_Example` project.
+   - Add the include directory to the project's include paths.
+   - Add `CppVoxelEngine.lib` to the list of additional dependencies in the linker settings.
+   - Add the library directory to the additional library directories in the linker settings.
 
-5. Build the Solution (DLL and EXE).
+5. **Build the Solution:**
+   - Build the Solution to compile both the DLL and EXE projects.
+
 
 ---
 
