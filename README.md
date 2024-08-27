@@ -3,11 +3,6 @@ A Voxel Engine Library in C++20 for WickedEngine
 
 ---
 
-
-I have to be honest I'm just getting started with CMake so I doubt this works yet, but someday.
-
-
-
 Building the Projects
 
 ---
@@ -32,7 +27,10 @@ Build the Solution (DLL and EXE)
 
 ---
 
+
 Building the Projects (with CMAKE)
+I have to be honest I'm just getting started with CMake so I doubt this works yet, but someday.
+
 
 Build the Static Library
 ---
