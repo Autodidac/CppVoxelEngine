@@ -14,7 +14,7 @@ Building the Projects
 
 Building the Projects (with WIN32)
 
-Build the DLL Library
+Build the DLLibrary and Example EXE
 ---
 
 Download the zip and extract it, into a new solution containing a DLL and EXE projects (one each)
