@@ -4,7 +4,7 @@ A Voxel Engine Library in C++20 for WickedEngine
 ---
 
 
-I gotta be honest I'm just getting started with CMake and I doubt this is working, but someday.
+I have to be honest I'm just getting started with CMake so I doubt this works yet, but someday.
 
 
 
