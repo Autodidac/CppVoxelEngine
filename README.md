@@ -17,7 +17,7 @@ A Voxel Engine Library in C++20 for WickedEngine
 
 3. **Configure CppVoxelEngine Project:**
    - Open the project properties for the `CppVoxelEngine` project.
-   - Add a macro to the preprocessor definitions. 'VOXELENGINE_EXPORTS'
+   - Add a macro to the preprocessor definitions. `VOXELENGINE_EXPORTS`
 
 4. **Configure CppVoxelEngine_Example Project:**
    - Open the project properties for the `CppVoxelEngine_Example` project.
