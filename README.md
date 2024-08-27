@@ -13,15 +13,23 @@ Build the Dynamic Link Library and Executable Binary Example
 ---
 
 Download the zip and extract it, into a new solution containing a DLL and EXE projects (one each)
+
 Drop the source in the appropriate folders (a premake version to build vs solutions is planned)
 
+
 in project properties (CppVoxelEngine project)
+
 add macro to preprocessor in engine project properties 
 
+
 in project properties (CppVoxelEngine_Example project)
+
 Add the include directory to exe project
+
 Add the CppVoxelEngine.lib to the linker in exe project
+
 Add the Lib directory to the linker in exe project 
+
 
 Build the Solution (DLL and EXE)
 
