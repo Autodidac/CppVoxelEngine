@@ -12,6 +12,8 @@ Building the Projects
 
 ---
 
+Building the Projects (with CMAKE)
+
 Build the Static Library
 ---
 Navigate to the VoxelEngineLib directory and create a build directory:
