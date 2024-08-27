@@ -3,63 +3,38 @@ A Voxel Engine Library in C++20 for WickedEngine
 
 ---
 
-Building the Projects
+## Building the Projects
+
+### Building with WIN32
+
+#### Build the Dynamic Link Library and Executable Binary Example
+
+1. Download the zip file and extract it into a new solution containing a DLL and EXE projects (one each).
+
+2. Drop the source files into the appropriate folders. (Note: A Premake version for building solutions is planned.)
+
+3. **In Project Properties (CppVoxelEngine project):**
+   - Add a macro to the preprocessor in the engine project properties.
+
+4. **In Project Properties (CppVoxelEngine_Example project):**
+   - Add the include directory to the EXE project.
+   - Add `CppVoxelEngine.lib` to the linker in the EXE project.
+   - Add the library directory to the linker in the EXE project.
+
+5. Build the Solution (DLL and EXE).
 
 ---
 
-Building the Projects (with WIN32)
+### Building with CMake
 
-Build the Dynamic Link Library and Executable Binary Example
----
+*Note: This is a work in progress. The CMake configuration may not be fully functional yet.*
 
-Download the zip and extract it, into a new solution containing a DLL and EXE projects (one each)
+#### Build the Static Library
 
-Drop the source in the appropriate folders (a premake version to build vs solutions is planned)
+1. Navigate to the `VoxelEngineLib` directory and create a build directory:
 
-
-in project properties (CppVoxelEngine project)
-
-add macro to preprocessor in engine project properties 
-
-
-in project properties (CppVoxelEngine_Example project)
-
-Add the include directory to exe project
-
-Add the CppVoxelEngine.lib to the linker in exe project
-
-Add the Lib directory to the linker in exe project 
-
-
-Build the Solution (DLL and EXE)
-
----
-
-
-Building the Projects (with CMAKE)
-
-I have to be honest I'm just getting started with CMake so I doubt this works yet, but someday.
-
-
-Build the Static Library
----
-Navigate to the VoxelEngineLib directory and create a build directory:
-
-<code>mkdir build
-cd build
-cmake ..
-cmake --build .
-</code>
-
-
-Build the Example Application
----
-Navigate to the VoxelEngineApp directory and create a build directory:
-
-<code>mkdir build
-cd build
-cmake ..
-cmake --build .
-</code>
-
----
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
