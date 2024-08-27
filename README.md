@@ -14,7 +14,7 @@ Building the Projects
 
 Building the Projects (with WIN32)
 
-Build the DLLibrary and Example EXE
+Build the Dynamic Link Library and Executable Binary Example
 ---
 
 Download the zip and extract it, into a new solution containing a DLL and EXE projects (one each)
