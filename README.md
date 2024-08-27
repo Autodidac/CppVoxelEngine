@@ -29,6 +29,7 @@ Build the Solution (DLL and EXE)
 
 
 Building the Projects (with CMAKE)
+
 I have to be honest I'm just getting started with CMake so I doubt this works yet, but someday.
 
 
