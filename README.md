@@ -21,7 +21,7 @@ A Voxel Engine Library in C++20 for WickedEngine
 
 4. **Configure CppVoxelEngine_Example Project:**
    - Open the project properties for the `CppVoxelEngine_Example` project.
-   - Add the include directory to the project's include paths.
+   - Add the Engine DLL include directory to the project's include paths.
    - Add `CppVoxelEngine.lib` to the list of additional dependencies in the linker settings.
    - Add the library directory to the additional library directories in the linker settings.
 
