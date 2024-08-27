@@ -10,23 +10,27 @@ A Voxel Engine Library in C++20 for WickedEngine
 #### Build the Dynamic Link Library and Executable Binary Example
 
 1. **Download and Extract:**
-   - Download the ZIP file and extract it into a new solution containing both a DLL and an EXE project.
+   - Download the ZIP file and extract it into a new solution directory. This directory should contain both a DLL project and an EXE project.
 
 2. **Add Source Files:**
-   - Place the source files into their respective project folders. (Note: A Premake configuration for building the solution is planned.)
+   - Copy the source files into the respective project folders within the solution. (Note: A Premake configuration for building the solution is planned and will simplify this step.)
 
-3. **Configure CppVoxelEngine Project:**
+3. **Configure `CppVoxelEngine` Project:**
    - Open the project properties for the `CppVoxelEngine` project.
-   - Add a macro to the preprocessor definitions. `VOXELENGINE_EXPORTS`
+   - Navigate to `Configuration Properties` > `C/C++` > `Preprocessor`.
+   - Add `VOXELENGINE_EXPORTS` to the `Preprocessor Definitions`.
 
-4. **Configure CppVoxelEngine_Example Project:**
+4. **Configure `CppVoxelEngine_Example` Project:**
    - Open the project properties for the `CppVoxelEngine_Example` project.
-   - Add the Engine DLL include directory to the project's include paths.
-   - Add `CppVoxelEngine.lib` to the list of additional dependencies in the linker settings.
-   - Add the library directory to the additional library directories in the linker settings.
+   - Navigate to `Configuration Properties` > `C/C++` > `General`.
+   - Add the path to the Engine DLL include directory to the `Additional Include Directories`.
+   - Navigate to `Configuration Properties` > `Linker` > `Input`.
+   - Add `CppVoxelEngine.lib` to the `Additional Dependencies`.
+   - Navigate to `Configuration Properties` > `Linker` > `General`.
+   - Add the path to the library directory to the `Additional Library Directories`.
 
 5. **Build the Solution:**
-   - Build the Solution to compile both the DLL and EXE projects.
+   - Build the Solution to compile both the DLL and EXE projects. This will generate the necessary binaries for your project.
 
 
 ---
