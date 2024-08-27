@@ -31,10 +31,19 @@ A Voxel Engine Library in C++20 for WickedEngine
 
 #### Build the Static Library
 
-1. Navigate to the `VoxelEngineLib` directory and create a build directory:
+1. Navigate to the `CppVoxelEngine` directory and create a build directory:
 
    ```bash
    mkdir build
    cd build
    cmake ..
    cmake --build .
+
+2. Navigate to the `CppVoxelEngine_Example` directory and create a build directory:
+
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
+
